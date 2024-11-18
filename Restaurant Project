@@ -1,0 +1,43 @@
+print("Hello, welcome to our restaurant!")
+
+print("Please enter your name: ")
+user_name = input()
+
+print ("Hello", user_name, "how are you?")
+
+user_feeling = input()
+
+if user_feeling == "Good":
+    print("I'm glad to hear that!")
+    #print("Let's start the game and make it even better!")
+elif user_feeling in ("not good", "bad", "worse"):
+    print("Hope you feel better.")
+    #print("Ok, let's start the game!")
+    
+print("Welcome to the restaurant", user_name,"!")
+
+print("What kind of drink would you like to drink?")
+
+drink_list = ["water", "Peppsi", "Fanta", " Lemon juice"]
+print(drink_list)
+
+user_drink = input()
+print(user_drink , ",what a nice choice!")
+print("I will bring your", user_drink , "right now!")
+print("what dish would you like to eat?")
+food_list = ["Chicken Shahwrma", "beef Shawrma", " Chicken over rice" , "Beef over rice"]
+print(food_list)
+user_food = input()
+
+print("We will get your", user_food , "ready!")
+
+print("Would you like to order more things?")
+user_choice = input()
+
+if(user_choice == "Yes"):
+    print("Please take a look at the menu and let me know what would you like.")
+elif(user_choice == "not sure"):
+    print("OK, Is there anything I can help you with?")
+
+else:
+    print("Thanks for coming, and we would like to see you again!")
